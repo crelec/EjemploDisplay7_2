@@ -10,9 +10,6 @@ char sol[4];
 BusOut mi_anodos(PC_7,PB_6,PA_7,PA_6); //D9,D10,D11,D12
 BusOut mi_Segmentos(PA_10,PB_3,PB_5,PB_4,PB_10,PA_8,PA_9);  //D2,D3,D4,D5,D6,D7,D8
 
-//static BufferedSerial serial_port(USBTX, USBRX);
-BufferedSerial serial_port(PA_2, PA_3);
-
 // Prototipos de las funciones 
 void visualiza(void);
 void rutinabcd(int numero);
